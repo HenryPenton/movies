@@ -20,8 +20,5 @@ RUN npm ci --only=production
 
 # Bundle app source
 COPY . .
-RUN npm i -g typescript
-RUN tsc */**.ts
-
 
 CMD [ "node", "index.js" ]
