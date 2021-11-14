@@ -1,5 +1,8 @@
-FROM amd64/node:lts-alpine3.14
+FROM amd64/alpine
 
+RUN apk update
+RUN apk upgrade
+RUN apk add --update nodejs npm
 
 WORKDIR /usr/src/app
 
