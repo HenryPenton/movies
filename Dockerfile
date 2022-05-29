@@ -3,7 +3,8 @@ FROM amd64/alpine
 RUN apk update
 RUN apk upgrade
 RUN apk add --update nodejs npm
-
+RUN apk update
+RUN apk upgrade
 WORKDIR /usr/src/app
 
 #               __
