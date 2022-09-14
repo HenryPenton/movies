@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "16.0.2",
-    "moviebot-telegram": "6.2.5"
+    "moviebot-telegram": "6.2.11"
   }
 }
