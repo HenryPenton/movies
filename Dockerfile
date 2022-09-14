@@ -3,6 +3,8 @@ FROM amd64/alpine
 RUN apk update
 RUN apk upgrade
 RUN apk add --update nodejs npm
+RUN npm install -g pnpm
+
 RUN apk update
 RUN apk upgrade
 WORKDIR /usr/src/app
@@ -14,9 +16,10 @@ WORKDIR /usr/src/app
 # __/ (  | (  |
 #/__.-'|_|--|_|
 
-COPY package*.json ./
+COPY pnpm-lock.yaml ./
+COPY package.json ./
 
-RUN npm ci --only=production
+RUN pnpm i
 
 COPY . .
 
