@@ -2,11 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   dotenv: 16.0.2
-  moviebot-telegram: 6.2.11
+  moviebot-telegram: 6.2.12
 
 dependencies:
   dotenv: 16.0.2
-  moviebot-telegram: 6.2.11
+  moviebot-telegram: 6.2.12
 
 packages:
 
@@ -110,8 +110,8 @@ packages:
       mime-db: 1.52.0
     dev: false
 
-  /moviebot-telegram/6.2.11:
-    resolution: {integrity: sha512-q19fA0BoioWzaGeyxy8t/eP1nU7W7iKZNrUCQB9aKB/Ro8N25qtIBNUf2onz6SqtFcvzZK+mQ1EuxrYmETe4cw==}
+  /moviebot-telegram/6.2.12:
+    resolution: {integrity: sha512-1I/GbVefX023BKH1zkeabINHTBsJYZP3emqwcAeEaltfn2OXX1+7ge7FzHxNzuFakkRe84AudHRVGvthS23HJQ==}
     dependencies:
       axios: 0.27.2
       dotenv: 16.0.2
