@@ -2,11 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   dotenv: 16.0.2
-  moviebot-telegram: 6.2.12
+  moviebot-telegram: 6.3.1
 
 dependencies:
   dotenv: 16.0.2
-  moviebot-telegram: 6.2.12
+  moviebot-telegram: 6.3.1
 
 packages:
 
@@ -21,11 +21,12 @@ packages:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
     dev: false
 
-  /axios/0.27.2:
-    resolution: {integrity: sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ==}
+  /axios/1.3.2:
+    resolution: {integrity: sha512-1M3O703bYqYuPhbHeya5bnhpYVsDDRyQSabNja04mZtboLNSuZ4YrltestrLXfHgmzua4TpUqRiVKbiQuo2epw==}
     dependencies:
       follow-redirects: 1.15.1
       form-data: 4.0.0
+      proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
     dev: false
@@ -74,6 +75,11 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
+    dev: false
+
   /event-target-shim/5.0.1:
     resolution: {integrity: sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==}
     engines: {node: '>=6'}
@@ -110,12 +116,12 @@ packages:
       mime-db: 1.52.0
     dev: false
 
-  /moviebot-telegram/6.2.12:
-    resolution: {integrity: sha512-1I/GbVefX023BKH1zkeabINHTBsJYZP3emqwcAeEaltfn2OXX1+7ge7FzHxNzuFakkRe84AudHRVGvthS23HJQ==}
+  /moviebot-telegram/6.3.1:
+    resolution: {integrity: sha512-wM+m2WctH+S+MTc/5sYiRPsBcuDtab5J1f/cYSdXOzJUnG04x0yKhDGuCaP3Srk2lTC/6wmZqtzuPuuSewzpgA==}
     dependencies:
-      axios: 0.27.2
-      dotenv: 16.0.2
-      telegraf: 4.9.2
+      axios: 1.3.2
+      dotenv: 16.0.3
+      telegraf: 4.11.2
     transitivePeerDependencies:
       - debug
       - encoding
@@ -148,6 +154,10 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
+  /proxy-from-env/1.1.0:
+    resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
+    dev: false
+
   /safe-compare/1.1.4:
     resolution: {integrity: sha512-b9wZ986HHCo/HbKrRpBJb2kqXMK9CEWIE1egeEvZsYn69ay3kdfl9nG3RyOcR+jInTDf7a86WQ1d4VJX7goSSQ==}
     dependencies:
@@ -159,8 +169,8 @@ packages:
     engines: {node: '>= 0.10'}
     dev: false
 
-  /telegraf/4.9.2:
-    resolution: {integrity: sha512-NONBwsIWAX4d6kq81IhvA9mfCe9RlElGmDTryKXRDSQ1r1u1ZPgTTeBfzOvzKF4Uc/f3AcH746wj2dIjAVt4HA==}
+  /telegraf/4.11.2:
+    resolution: {integrity: sha512-RGEh+NXkHbq1KcSSbJeVYhHMrEN4rymd9DSe3SoIV0886bJPBHLzYCNrOqnk9aeZE2Idwh5uK0X/xbR6jScQKQ==}
     engines: {node: ^12.20.0 || >=14.13.1}
     hasBin: true
     dependencies:
@@ -171,7 +181,7 @@ packages:
       p-timeout: 4.1.0
       safe-compare: 1.1.4
       sandwich-stream: 2.0.2
-      typegram: 3.11.0
+      typegram: 4.3.0
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -181,8 +191,8 @@ packages:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
     dev: false
 
-  /typegram/3.11.0:
-    resolution: {integrity: sha512-4p6u+AFognlsDgBue8Hla2jO7Ax+UQXcLa27LC7xDdAeR9LTe+Cr4vJrYpoO1wgj/BFWgXTeboaH/+1YgWyfpA==}
+  /typegram/4.3.0:
+    resolution: {integrity: sha512-pS4STyOZoJ++Mwa9GPMTNjOwEzMkxFfFt1By6IbMOJfheP0utMP/H1ga6J9R4DTjAYBr0UDn4eQg++LpWBvcAg==}
     dev: false
 
   /webidl-conversions/3.0.1:
