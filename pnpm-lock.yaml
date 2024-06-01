@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       moviebot-telegram:
-        specifier: 7.0.2
-        version: 7.0.2
+        specifier: 7.0.10
+        version: 7.0.10
 
 packages:
 
@@ -46,8 +46,8 @@ packages:
     resolution: {integrity: sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==}
     engines: {node: '>=6'}
 
-  moviebot-telegram@7.0.2:
-    resolution: {integrity: sha512-3DrdZtMoR/BBA51T/ld2je0UWsEyR5l/wjZ/ZSlczY4JyaY5du9H7PkY4W6k/idaSy6L1ZvfTDhE6Y/lCIzrbQ==}
+  moviebot-telegram@7.0.10:
+    resolution: {integrity: sha512-4XJP2zHjKSCATfPNB4f796rQPH/mvik34clJpGt1Rxz5Ds77n/gYvp0DuqOWM9Y1ujfM7JGMD+xGllpFaIiJQw==}
 
   mri@1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
@@ -115,7 +115,7 @@ snapshots:
 
   event-target-shim@5.0.1: {}
 
-  moviebot-telegram@7.0.2:
+  moviebot-telegram@7.0.10:
     dependencies:
       config-captain: 2.0.0
       telegraf: 4.16.3
