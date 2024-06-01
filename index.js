@@ -1,5 +1,3 @@
-const { init } = require("moviebot-telegram");
+const { launchBot } = require("moviebot-telegram");
 
-require("dotenv").config();
-
-init();
+launchBot();

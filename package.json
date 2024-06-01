@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "16.0.3",
-    "moviebot-telegram": "6.3.2"
+    "moviebot-telegram": "7.0.2"
   }
 }
