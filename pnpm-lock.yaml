@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       moviebot-telegram:
-        specifier: 7.0.10
-        version: 7.0.10
+        specifier: 7.1.3
+        version: 7.1.3
 
 packages:
 
@@ -30,8 +30,8 @@ packages:
   buffer-fill@1.0.0:
     resolution: {integrity: sha512-T7zexNBwiiaCOGDg9xNX9PBmjrubblRkENuptryuI64URkXDFum9il/JGL8Lm8wYfAXpredVXXZz7eMHilimiQ==}
 
-  config-captain@2.0.0:
-    resolution: {integrity: sha512-zkpzgYzNrI4L33ZI6lQ5fEL07DlOHojKl8M1wxgRxJhLHQNmm1OdY5cajSbo7xvwYNaXEtnPZFHMcqYqjl5skA==}
+  config-captain@2.0.2:
+    resolution: {integrity: sha512-+Go9xq4tISLlo7D1EfOKjRBmpIv5g6OwpvDETKuyC/X1oTc9IwLTJEUL2AKlBWMQQyakntECDEzc4lwuQpsF2Q==}
 
   debug@4.3.5:
     resolution: {integrity: sha512-pt0bNEmneDIvdL1Xsd9oDQ/wrQRkXDT4AUWlNZNPKvW5x/jyO9VFXkJUP07vQ2upmw5PlaITaPKc31jK13V+jg==}
@@ -46,8 +46,8 @@ packages:
     resolution: {integrity: sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==}
     engines: {node: '>=6'}
 
-  moviebot-telegram@7.0.10:
-    resolution: {integrity: sha512-4XJP2zHjKSCATfPNB4f796rQPH/mvik34clJpGt1Rxz5Ds77n/gYvp0DuqOWM9Y1ujfM7JGMD+xGllpFaIiJQw==}
+  moviebot-telegram@7.1.3:
+    resolution: {integrity: sha512-wJZOibT//uoefyzYEoRl8VPlEUyFx7SHjHHRv08mOKGW4y2+q3w/LhOZeq6VQdB8Bpfgkj4Ee2SFFLtwFd/Mqg==}
 
   mri@1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
@@ -107,7 +107,7 @@ snapshots:
 
   buffer-fill@1.0.0: {}
 
-  config-captain@2.0.0: {}
+  config-captain@2.0.2: {}
 
   debug@4.3.5:
     dependencies:
@@ -115,9 +115,9 @@ snapshots:
 
   event-target-shim@5.0.1: {}
 
-  moviebot-telegram@7.0.10:
+  moviebot-telegram@7.1.3:
     dependencies:
-      config-captain: 2.0.0
+      config-captain: 2.0.2
       telegraf: 4.16.3
     transitivePeerDependencies:
       - encoding
